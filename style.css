@@ -280,7 +280,7 @@ a:focus {
     display: block;
     margin-right: 8vw;
     margin-left: 8vw;
-    line-height: 1;
+    line-height: 1.15;
     text-align: center;
 }
 
