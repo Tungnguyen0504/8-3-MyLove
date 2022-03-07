@@ -30,8 +30,8 @@ body {
     --color-link-hover: #fff;
     --color-content-title-sub: #6b5537;
     color: var(--color-text);
-    background-color: #eec0c6;
-    background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
+    background-color: #fc5296;
+    background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%);
     /* background-repeat: no-repeat;
     background-position: center;
     background-size: cover; */
@@ -264,7 +264,7 @@ a:focus {
 .content__title {
     font-family: cursive;
     font-weight: 400;
-    font-size: 9vw;
+    font-size: 8vw;
     margin: 20px 5px;
     line-height: 1;
     position: relative;

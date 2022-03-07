@@ -24,6 +24,7 @@
 
 <body class="demo-3 loading">
     <main>
+
         <div class="message">Please view this demo on a desktop to see the effect.</div>
         <div class="frame">
         </div>
@@ -63,11 +64,14 @@
             <h2 class="content__title no-select">
                 <span>My Bae</span>
             </h2>
-            <h2 class="content__title no-select">
+            <h2 class="content__title no-select" style="text-align: center;">
                 <span class="content__title-sub" style="margin-top: 15px;">Chúc em yêu 8/3 mãi xinh đẹp, ngập tràn vui vẻ, hạnh phúc</span>
                 <span class="content__title-sub" style="margin-top: 15px;">Anh sẽ luôn ở bên cạnh em, đợi anh nha</span>
                 <span class="content__title-sub" style="margin-top: 15px;">I Love You More Than I Can Say</span>
-                <span class="content__title-sub" style="color: crimson; margin-top: 15px;"><i class="bi bi-heart-fill"></i></span>
+                <span class="content__title-sub" style="color: crimson; margin-top: 15px; margin-bottom: -28px; font-size: 56px;"><i class="bi bi-heart-fill"></i></span>
+                <audio controls autoplay="autoplay" loop id="autoplay">
+                    <source src="music/Hon Ca Yeu - Nguyen Duc Phuc.mp3">
+                </audio>
             </h2>
         </div>
     </main>
@@ -75,6 +79,11 @@
 			<circle class="cursor__inner" cx="40" cy="40" r="20"></circle>
 		</svg>
     <script src="./script.js"></script>
+    <script>
+        window.onload = function() {
+            document.getElementById("autoplay").play();
+        }
+    </script>
 </body>
 
 </html>
